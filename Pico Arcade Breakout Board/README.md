@@ -34,33 +34,33 @@ The estimated cost of a full setup is $20 USD when ordering enough parts to make
 
 Parts necessary for full assembly:
 
-1 x Pico Arcade Breakout Board
-2 x Pico Arcade Breakout Board Cover
-2 x RaspBerry Pi Pico board
-46 x 3.5mm interlocking screw terminals *
-2 x 2x10pin 2.54mm header
-2 x 1x4pin 2.54mm header
-2 x 6x6 4pin through hole tactile switch **
-8 x M2 8mm Stainless Steel hex socket head bolt ***
-16 x M2 Stainless Steel spring lock washer ***
-16 x M2 Stainless Steel nut ***
+1 x Pico Arcade Breakout Board<br/>
+2 x Pico Arcade Breakout Board Cover<br/>
+2 x RaspBerry Pi Pico board<br/>
+46 x 3.5mm interlocking screw terminals (1)<br/>
+2 x 2x10pin 2.54mm header<br/>
+2 x 1x4pin 2.54mm header<br/>
+2 x 6x6 4pin through hole tactile switch (2)<br/>
+8 x M2 8mm Stainless Steel hex socket head bolt (3)<br/>
+16 x M2 Stainless Steel spring lock washer (3)<br/>
+16 x M2 Stainless Steel nut (3)<br/>
 
-* - I typically use a combination of 2pin and 3pin terminals on mine to make the 23 long chain
-** - Most heights are fine for this although I usually put a short one on the board
-*** - The assembly order is 8mm bolt -> shield PCB -> 2 x spring lock washer -> nut -> main PCB -> nut
+(1) - I typically use a combination of 2pin and 3pin terminals on mine to make the long chains<br/>
+(2) - Most heights are fine for this although I usually put a short one on the board<br/>
+(3) - The assembly order is 8mm bolt -> shield PCB -> 2 x spring lock washer -> nut -> main PCB -> nut<br/>
 
 
 Parts necessary for lite assembly:
 
-1 x Pico Basic Breakout Board
-1 x RaspBerry Pi Pico board
-23 x 3.5mm interlocking screw terminals*
-1 x 2x10pin 2.54mm header
-1 x 1x4pin 2.54mm header
-1 x 6x6 4pin through hole tactile switch**
+1 x Pico Basic Breakout Board<br/>
+2 x RaspBerry Pi Pico board<br/>
+46 x 3.5mm interlocking screw terminals (1)<br/>
+2 x 2x10pin 2.54mm header<br/>
+2 x 1x4pin 2.54mm header<br/>
+2 x 6x6 4pin through hole tactile switch (2)<br/>
 
-* - I typically use a combination of 2pin and 3pin terminals on mine to make the 23 long chain
-** - most heights are fine for this although I usually put a short one on the board
+(1) - I typically use a combination of 2pin and 3pin terminals on mine to make the long chains<br/>
+(2) - most heights are fine for this although I usually put a short one on the board<br/>
 
 
 ---
@@ -69,30 +69,33 @@ How to order a board:
 
 All of the boards so far have been ordered though JLCPCB.  Due to minimum order numbers you would get five of these basic breakout boards.  Here are the steps to make your first order and what options I choose along the way.
 
-1 - Go to JLCPCB.com
-2 - Click on `Instant Quote`
-3 - Click on `Add Gerber file` and choose the file named `Gerber - Pico Brook Basic Board v2.0.zip`
-4 - Choose the following options for the board
-     Base Material = FR-4
-     Layers = 2
-     Dimensions = (should auto-populate) 45.01 * 96.01 mm
-     PCB Qty = 5
-     Product Type = Industrial/Consumer electronics
-     Different Design = 1
-     Delivery Format = Single PCB
-     PCB Thickness = 1.6
-     PCB Color = (up to you)
-     Silkscreen = (defaults to white for all except white boards which is black)
-     Surface Finish = HASL(with lead)
-     Outer Copper Weight = 1oz
-     Gold Fingers = No
-     Confirm Production file = No
-     Flying Probe Test = Fully Test
-     Castellated Holes = No
-     Remove Order Number = Specify a location
-     No advanced options
-5 - Click on `SAVE TO CART`
+1 - Go to JLCPCB.com<br/>
+2 - Click on `Instant Quote`<br/>
+3 - Click on `Add Gerber file` and choose the file named `Gerber - Pico Arcade Breakout Board v2.0.zip`<br/>
+4 - Choose the following options for the board:<br/>
+- Base Material = FR-4<br/>
+- Layers = 2<br/>
+- Dimensions = (should auto-populate) 45.01 * 96.01 mm<br/>
+- PCB Qty = 5<br/>
+- Product Type = Industrial/Consumer electronics<br/>
+- Different Design = 1<br/>
+- Delivery Format = Single PCB<br/>
+- PCB Thickness = 1.6<br/>
+- PCB Color = (up to you)<br/>
+- Silkscreen = (defaults to white for all except white boards which is black)<br/>
+- Surface Finish = HASL(with lead)<br/>
+- Outer Copper Weight = 1oz<br/>
+- Gold Fingers = No<br/>
+- Confirm Production file = No<br/>
+- Flying Probe Test = Fully Test<br/>
+-  Castellated Holes = No<br/>
+- Remove Order Number = Specify a location<br/>
+- No advanced options<br/>
+
+5 - Click on `SAVE TO CART`<br/>
 6 - Go through checkout process, ensure to select economic shipping to keep costs low
+
+To add the PCB cover as well follow the same process but select the file `Gerber - Pico Arcade Breakout Board PCB Cover v2.0.zip`. Keep in mind for every 5 x Pico Arcade Breakout Boards you want to make you will need 10 x PCB covers.
      
 
 ---
@@ -104,6 +107,8 @@ If uploading the firmware before assembly you can hold the BootSel button on the
 If uploading the firmware after assembly plug the Pico into your computer and quickly press the BootSel button twice on the Pico Basic Breakout Board.  You should see an external device show up on your computer.  Copy the `GP2040-RaspberryPiPico_v0.4.3.uf2` file to it and wait for the device to disconnect after copying completes.  
 
 If something goes wrong and you want to upload the firmware again (or if you have tested out the configuration tool and made a mistake) you can enter BootSel mode via either of the methods above and drag over the included `flash_nuke.uf2` file.  This file will take a moment to write to the Pico, once completed you will see the device disconnect and then re-connect as an external device.  After it has shown up again you can copy the same `GP2040-RaspberryPiPico_v0.4.3.uf2` firmware over to it again.
+
+You will need to do this for each of the Picos on the board.
 
 
 ---
@@ -123,14 +128,8 @@ Revision History:
 
 v2.0
 - Swapped S1 and S2 to be more consistent with Brook pinout
-
-v1.5
 - Added BootSel button to board
 - Added OLED display pinout
-
-v1.1
-- Corrected 2x10pin size to proper 2.54mm spacing
-- Changed screw terminals from 2.54mm to 3.5mm
 - Added JLCPCB order number marker to board for easier and cheaper ordering
 
 v1.0
