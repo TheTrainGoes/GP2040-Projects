@@ -85,7 +85,7 @@ All of the boards so far have been ordered though JLCPCB.  Due to minimum order 
 
 1 - Go to JLCPCB.com<br/>
 2 - Click on `Instant Quote`<br/>
-3 - Click on `Add Gerber file` and choose the file named `Gerber - Pico Brook Basic Board v2.0.zip`<br/>
+3 - Click on `Add Gerber file` and choose the file named `Gerber - Pico Basic Board v2.0.zip`<br/>
 4 - Choose the following options for the board:<br/>
 - Base Material = FR-4<br/>
 - Layers = 2<br/>
@@ -109,7 +109,7 @@ All of the boards so far have been ordered though JLCPCB.  Due to minimum order 
 5 - Click on `SAVE TO CART`<br/>
 6 - Go through checkout process, ensure to select economic shipping to keep costs low
 
-To add the PCB cover as well follow the same process but select the file `Gerber - Pico Brook Basic Board PCB Cover v2.0.zip`.
+To add the PCB cover as well follow the same process but select the file `Gerber - Pico Basic Board PCB Cover v2.0.zip`.
      
 
 ---
