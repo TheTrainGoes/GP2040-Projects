@@ -20,7 +20,19 @@ A massive thank you to FeralAI who made most of this possible!
 
 Board design choices:
 
-The RaspBerry Pi mounting area has been setup in a way that allows you to solder directly to the board though the extended pads or stacked with the use of a header if you happen to have gotten a pre-soldered Pico.  Two 20pin (2x10pin) connectors are located in the bottom left of the board.  If you are planning to use the 20pin connector you do not need to add screw terminals to the board, and vice versa.  A BootSel button for each board is available to allow for re-flashing of the firmware while the board is plugged in and also to eliminate the need to remove the Pico cover to access the Pico directly.  An OLED display breakout is also available for each player on the board however most of the functionality of the display is currently quite limited.  The top and side row of pads allows for direct solder of wires as well as screw terminals to be added.  To keep the board looking clean a second board can be added on top of the Pico as a shield to cover it.  For those that want to order through JLCPCB I have added `JLCJLCJLCJLC` on the board in a hidden area to cover the order number.
+The RaspBerry Pi mounting area has been setup in a way that allows you to solder directly to the board though the extended pads or stacked with the use of a header if you happen to have gotten a pre-soldered Pico.  
+
+Two 20pin (2x10pin) connectors are located in the bottom left of the board.  If you are planning to use the 20pin connector you do not need to add screw terminals to the board, and vice versa.  
+
+A BootSel button for each board is available to allow for re-flashing of the firmware while the board is plugged in and also to eliminate the need to remove the Pico cover to access the Pico directly.  
+
+An OLED display breakout is also available for each player on the board however most of the functionality of the display is currently quite limited.  
+
+The top and side row of pads allows for direct solder of wires as well as screw terminals to be added.  
+
+To keep the board looking clean a second board can be added on top of the Pico as a shield to cover it.  
+
+For those that want to order through JLCPCB I have added `JLCJLCJLCJLC` on the board in a hidden area to cover the order number.
 
 For a basic assembly you can remove the second PDCs that are used as shields and omit the nuts, bolts and spring lock washers.  This will expose the bare Pico board and recommended only for green boards.
 
