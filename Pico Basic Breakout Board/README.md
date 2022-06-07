@@ -108,6 +108,8 @@ All of the boards so far have been ordered though JLCPCB.  Due to minimum order 
 
 5 - Click on `SAVE TO CART`<br/>
 6 - Go through checkout process, ensure to select economic shipping to keep costs low
+
+To add the PCB cover as well follow the same process but select the file `Gerber - Pico Brook Basic Board PCB Cover v2.0.zip`.
      
 
 ---
