@@ -1,11 +1,13 @@
-Pico Basic Breakout Board
+![Pico Arcade Breakout Board - Front render](https://user-images.githubusercontent.com/32771064/172406353-c0bfd96a-cbc3-417b-9a7e-4387ac7d4c01.png)
+
+Pico Arcade Breakout Board
 ---
 
 Summary:
 
-The Pico Basic Breakout Board is based on the Pico Fighting Board (https://github.com/FeralAI/PicoFightingBoard) and runs the same GP2040 firmware (https://gp2040.info/#/) on a RaspBerry Pi Pico.
+The Pico Arcade Breakout Board is based on the Pico Fighting Board (https://github.com/FeralAI/PicoFightingBoard) and runs the same GP2040 firmware (https://gp2040.info/#/) on a RaspBerry Pi Pico.
 
-The Pico Basic Breakout Board removes all SMD components while retaining core functionality in a Brook form factor board.  
+The Pico Arcade Breakout Board removes all SMD components while retaining core functionality in form factor that is suited to install in a Vewlix or any other arcade machine.  
 
 I have tested this extensively with the GP2040-RaspberryPiPico_v0.4.3.uf2 version of the firmware (included in the folder).  Please note that future releases may change default pin layout and require a different version of the board to be created.
 
@@ -18,30 +20,30 @@ A massive thank you to FeralAI who made most of this possible!
 
 Board design choices:
 
-The Brook form factor was chosen due to its compatibility with a number of existing enclosures and holders.  The RaspBerry Pi mounting area has been setup in a way that allows you to solder directly to the board though the extended pads or stacked with the use of a header if you happen to have gotten a pre-soldered Pico.  A 20pin (2x10pin) connector is located in the bottom left of the board, matching the location and pinout of standard Brook boards.  If you are planning to use the 20pin connector you do not need to add screw terminals to the board, and vice versa.  A BootSel button is available to allow for re-flashing of the firmware while the board is plugged in and also to eliminate the need to remove the Pico cover to access the Pico directly.  An OLED display breakout is also available on the board however most of the functionality of the display is currently quite limited.  The top row of pads allows for direct solder of wires as well as screw terminals to be added.  To keep the board looking clean a second board can be added on top of the Pico as a shield to cover it.  For those that want to order through JLCPCB I have added `JLCJLCJLCJLC` on the board in a hidden area to cover the order number.
+The RaspBerry Pi mounting area has been setup in a way that allows you to solder directly to the board though the extended pads or stacked with the use of a header if you happen to have gotten a pre-soldered Pico.  Two 20pin (2x10pin) connectors are located in the bottom left of the board.  If you are planning to use the 20pin connector you do not need to add screw terminals to the board, and vice versa.  A BootSel button for each board is available to allow for re-flashing of the firmware while the board is plugged in and also to eliminate the need to remove the Pico cover to access the Pico directly.  An OLED display breakout is also available for each player on the board however most of the functionality of the display is currently quite limited.  The top and side row of pads allows for direct solder of wires as well as screw terminals to be added.  To keep the board looking clean a second board can be added on top of the Pico as a shield to cover it.  For those that want to order through JLCPCB I have added `JLCJLCJLCJLC` on the board in a hidden area to cover the order number.
 
-For a basic assembly you can remove the second PDC that is used as a shield and omit the nuts, bolts and spring lock washers.  This will expose the bare Pico board and recommended only for green boards.
+For a basic assembly you can remove the second PDCs that are used as shields and omit the nuts, bolts and spring lock washers.  This will expose the bare Pico board and recommended only for green boards.
 
 
 ---
 
-There are two main ways to assemble, a full and lite version of the setup.  The full version has a nice PCB cover for the Pico that is attached via some M2 nuts, bolts and washers.  The lite version is just a bare Pico on the Pico Basic Breakout Board (for this option I recommend doing your Pico Basic Breakout Board PCB in green).  
+There are two main ways to assemble, a full and lite version of the setup.  The full version has a nice PCB cover for the Picos that is attached via some M2 nuts, bolts and washers.  The lite version is just a bare Picos on the Pico Arcade Breakout Board (for this option I recommend doing your Pico Arcade Breakout Board PCB in green).  
 
-The estimated cost of a full setup is $10 USD when ordering enough parts to make 5 units ($50 USD total).  All parts listed are available on AliExpress.
+The estimated cost of a full setup is $20 USD when ordering enough parts to make 5 units ($100 USD total).  All parts listed are available on AliExpress.
 
 
 Parts necessary for full assembly:
 
-1 x Pico Basic Breakout Board
-1 x Pico Basic Breakout Board Cover
-1 x RaspBerry Pi Pico board
-23 x 3.5mm interlocking screw terminals *
-1 x 2x10pin 2.54mm header
-1 x 1x4pin 2.54mm header
-1 x 6x6 4pin through hole tactile switch **
-4 x M2 8mm Stainless Steel hex socket head bolt ***
-8 x M2 Stainless Steel spring lock washer ***
-8 x M2 Stainless Steel nut ***
+1 x Pico Arcade Breakout Board
+2 x Pico Arcade Breakout Board Cover
+2 x RaspBerry Pi Pico board
+46 x 3.5mm interlocking screw terminals *
+2 x 2x10pin 2.54mm header
+2 x 1x4pin 2.54mm header
+2 x 6x6 4pin through hole tactile switch **
+8 x M2 8mm Stainless Steel hex socket head bolt ***
+16 x M2 Stainless Steel spring lock washer ***
+16 x M2 Stainless Steel nut ***
 
 * - I typically use a combination of 2pin and 3pin terminals on mine to make the 23 long chain
 ** - Most heights are fine for this although I usually put a short one on the board
