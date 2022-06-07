@@ -1,3 +1,5 @@
+![Pico Basic Breakout Board - Front render](https://user-images.githubusercontent.com/32771064/172399744-610cd15f-1dcd-4831-add6-6181ca52ad40.png)
+
 Pico Basic Breakout Board
 ---
 
