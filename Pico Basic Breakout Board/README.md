@@ -20,12 +20,26 @@ A massive thank you to FeralAI who made most of this possible!
 
 Board design choices:
 
-The Brook form factor was chosen due to its compatibility with a number of existing enclosures and holders.  The RaspBerry Pi mounting area has been setup in a way that allows you to solder directly to the board though the extended pads or stacked with the use of a header if you happen to have gotten a pre-soldered Pico.  A 20pin (2x10pin) connector is located in the bottom left of the board, matching the location and pinout of standard Brook boards.  If you are planning to use the 20pin connector you do not need to add screw terminals to the board, and vice versa.  A BootSel button is available to allow for re-flashing of the firmware while the board is plugged in and also to eliminate the need to remove the Pico cover to access the Pico directly.  An OLED display breakout is also available on the board however most of the functionality of the display is currently quite limited.  The top row of pads allows for direct solder of wires as well as screw terminals to be added.  To keep the board looking clean a second board can be added on top of the Pico as a shield to cover it.  For those that want to order through JLCPCB I have added `JLCJLCJLCJLC` on the board in a hidden area to cover the order number.
+The Brook form factor was chosen due to its compatibility with a number of existing enclosures and holders.  The RaspBerry Pi mounting area has been setup in a way that allows you to solder directly to the board though the extended pads or stacked with the use of a header if you happen to have gotten a pre-soldered Pico.  
+
+A 20pin (2x10pin) connector is located in the bottom left of the board, matching the location and pinout of standard Brook boards.  If you are planning to use the 20pin connector you do not need to add screw terminals to the board, and vice versa.  
+
+A BootSel button is available to allow for re-flashing of the firmware while the board is plugged in and also to eliminate the need to remove the Pico cover to access the Pico directly.  
+
+An OLED display breakout is also available on the board however most of the functionality of the display is currently quite limited.  
+
+The top row of pads allows for direct solder of wires as well as screw terminals to be added.  
+
+To keep the board looking clean a second board can be added on top of the Pico as a shield to cover it.  
+
+For those that want to order through JLCPCB I have added `JLCJLCJLCJLC` on the board in a hidden area to cover the order number.
 
 For a basic assembly you can remove the second PDC that is used as a shield and omit the nuts, bolts and spring lock washers.  This will expose the bare Pico board and recommended only for green boards.
 
 
 ---
+
+Assembly:
 
 There are two main ways to assemble, a full and lite version of the setup.  The full version has a nice PCB cover for the Pico that is attached via some M2 nuts, bolts and washers.  The lite version is just a bare Pico on the Pico Basic Breakout Board (for this option I recommend doing your Pico Basic Breakout Board PCB in green).  
 
@@ -34,33 +48,33 @@ The estimated cost of a full setup is $10 USD when ordering enough parts to make
 
 Parts necessary for full assembly:
 
-1 x Pico Basic Breakout Board
-1 x Pico Basic Breakout Board Cover
-1 x RaspBerry Pi Pico board
-23 x 3.5mm interlocking screw terminals *
-1 x 2x10pin 2.54mm header
-1 x 1x4pin 2.54mm header
-1 x 6x6 4pin through hole tactile switch **
-4 x M2 8mm Stainless Steel hex socket head bolt ***
-8 x M2 Stainless Steel spring lock washer ***
-8 x M2 Stainless Steel nut ***
+1 x Pico Basic Breakout Board<br/>
+1 x Pico Basic Breakout Board Cover<br/>
+1 x RaspBerry Pi Pico board<br/>
+23 x 3.5mm interlocking screw terminals (1)<br/>
+1 x 2x10pin 2.54mm header<br/>
+1 x 1x4pin 2.54mm header<br/>
+1 x 6x6 4pin through hole tactile switch (2)<br/>
+4 x M2 8mm Stainless Steel hex socket head bolt (3)<br/>
+8 x M2 Stainless Steel spring lock washer (3)<br/>
+8 x M2 Stainless Steel nut (3)<br/>
 
-* - I typically use a combination of 2pin and 3pin terminals on mine to make the 23 long chain
-** - Most heights are fine for this although I usually put a short one on the board
-*** - The assembly order is 8mm bolt -> shield PCB -> 2 x spring lock washer -> nut -> main PCB -> nut
+(1) - I typically use a combination of 2pin and 3pin terminals on mine to make the 23 long chain<br/>
+(2) - Most heights are fine for this although I usually put a short one on the board<br/>
+(3) - The assembly order is 8mm bolt -> shield PCB -> 2 x spring lock washer -> nut -> main PCB -> nut<br/>
 
 
 Parts necessary for lite assembly:
 
-1 x Pico Basic Breakout Board
-1 x RaspBerry Pi Pico board
-23 x 3.5mm interlocking screw terminals*
-1 x 2x10pin 2.54mm header
-1 x 1x4pin 2.54mm header
-1 x 6x6 4pin through hole tactile switch**
+1 x Pico Basic Breakout Board<br/>
+1 x RaspBerry Pi Pico board<br/>
+23 x 3.5mm interlocking screw terminals (1)<br/>
+1 x 2x10pin 2.54mm header<br/>
+1 x 1x4pin 2.54mm header<br/>
+1 x 6x6 4pin through hole tactile switch (2)<br/>
 
-* - I typically use a combination of 2pin and 3pin terminals on mine to make the 23 long chain
-** - most heights are fine for this although I usually put a short one on the board
+(1) - I typically use a combination of 2pin and 3pin terminals on mine to make the 23 long chain<br/>
+(2) - most heights are fine for this although I usually put a short one on the board<br/>
 
 
 ---
@@ -69,29 +83,30 @@ How to order a board:
 
 All of the boards so far have been ordered though JLCPCB.  Due to minimum order numbers you would get five of these basic breakout boards.  Here are the steps to make your first order and what options I choose along the way.
 
-1 - Go to JLCPCB.com
-2 - Click on `Instant Quote`
-3 - Click on `Add Gerber file` and choose the file named `Gerber - Pico Brook Basic Board v2.0.zip`
-4 - Choose the following options for the board
-     Base Material = FR-4
-     Layers = 2
-     Dimensions = (should auto-populate) 45.01 * 96.01 mm
-     PCB Qty = 5
-     Product Type = Industrial/Consumer electronics
-     Different Design = 1
-     Delivery Format = Single PCB
-     PCB Thickness = 1.6
-     PCB Color = (up to you)
-     Silkscreen = (defaults to white for all except white boards which is black)
-     Surface Finish = HASL(with lead)
-     Outer Copper Weight = 1oz
-     Gold Fingers = No
-     Confirm Production file = No
-     Flying Probe Test = Fully Test
-     Castellated Holes = No
-     Remove Order Number = Specify a location
-     No advanced options
-5 - Click on `SAVE TO CART`
+1 - Go to JLCPCB.com<br/>
+2 - Click on `Instant Quote`<br/>
+3 - Click on `Add Gerber file` and choose the file named `Gerber - Pico Brook Basic Board v2.0.zip`<br/>
+4 - Choose the following options for the board:<br/>
+- Base Material = FR-4<br/>
+- Layers = 2<br/>
+- Dimensions = (should auto-populate) 45.01 * 96.01 mm<br/>
+- PCB Qty = 5<br/>
+- Product Type = Industrial/Consumer electronics<br/>
+- Different Design = 1<br/>
+- Delivery Format = Single PCB<br/>
+- PCB Thickness = 1.6<br/>
+- PCB Color = (up to you)<br/>
+- Silkscreen = (defaults to white for all except white boards which is black)<br/>
+- Surface Finish = HASL(with lead)<br/>
+- Outer Copper Weight = 1oz<br/>
+- Gold Fingers = No<br/>
+- Confirm Production file = No<br/>
+- Flying Probe Test = Fully Test<br/>
+-  Castellated Holes = No<br/>
+- Remove Order Number = Specify a location<br/>
+- No advanced options<br/>
+
+5 - Click on `SAVE TO CART`<br/>
 6 - Go through checkout process, ensure to select economic shipping to keep costs low
      
 
