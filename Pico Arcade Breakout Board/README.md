@@ -87,7 +87,7 @@ All of the boards so far have been ordered though JLCPCB.  Due to minimum order 
 4 - Choose the following options for the board:<br/>
 - Base Material = FR-4<br/>
 - Layers = 2<br/>
-- Dimensions = (should auto-populate) 45.01 * 96.01 mm<br/>
+- Dimensions = (should auto-populate) 126.55 * 70.99 mm<br/>
 - PCB Qty = 5<br/>
 - Product Type = Industrial/Consumer electronics<br/>
 - Different Design = 1<br/>
