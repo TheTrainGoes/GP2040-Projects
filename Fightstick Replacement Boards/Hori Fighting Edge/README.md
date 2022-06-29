@@ -1,5 +1,3 @@
-![Pico Basic Breakout Board - Front render](https://user-images.githubusercontent.com/32771064/172399744-610cd15f-1dcd-4831-add6-6181ca52ad40.png)
-
 Hori Fighting Edge
 ---
 
@@ -15,6 +13,8 @@ This project aims to replace the main board in the Hori Fighting Edge (PS3 versi
 
 Main PCB pinout:
 
+
+Button Loom
 CN5 - XH 2.54mm 9 pin
 
 1 - Grey   - L2       - (4K)<br/>
@@ -26,6 +26,27 @@ CN5 - XH 2.54mm 9 pin
 7 - Red    - Cross    - (1K)<br/>
 8 - Blue   - Square   - (1P)<br/>
 9 - Black  - Ground<br/>
+
+
+Left side LEDs
+CN6 - PH 2.00mm 3 pin
+
+1 - Blue/Purple  - Red LED<br/>
+2 - White        - Ground (needs 100 ohm resistor)<br/>
+3 - Black        - Blue LED<br/>
+
+
+Touch Panel Buttons
+CN3 - PH 2.00mm 6 pin
+
+1 - Red    - 5v VCC (needs 100 ohm resistor)<br/>
+2 - White  - 'CNF' on the touch panel<br/>
+3 - Black  - 'X' on the touch panel<br/>
+4 - Yellow - 'Select' on the touch panel<br/>
+5 - Green  - 'Start' on the touch panel<br/>
+6 - Orange - Ground<br/>
+
+
 
 
 
