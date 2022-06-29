@@ -5,10 +5,6 @@ Summary:
 
 This project aims to replace the main board in the Hori Fighting Edge (PS3 version) allowing you to connect either a Brook board via the 20pin or a RasBerry Pi Pico that is running the GP2040 firmware.
 
-
-
-
-
 ---
 
 Main PCB pinout:
