@@ -1,19 +1,32 @@
 ![Pico Basic Breakout Board - Front render](https://user-images.githubusercontent.com/32771064/172399744-610cd15f-1dcd-4831-add6-6181ca52ad40.png)
 
-Pico Basic Breakout Board
+Hori Fighting Edge
 ---
 
 Summary:
 
-The Pico Basic Breakout Board is based on the Pico Fighting Board (https://github.com/FeralAI/PicoFightingBoard) and runs the same GP2040 firmware (https://gp2040.info/#/) on a RaspBerry Pi Pico.
+This project aims to replace the main board in the Hori Fighting Edge (PS3 version) allowing you to connect either a Brook board via the 20pin or a RasBerry Pi Pico that is running the GP2040 firmware.
 
-The Pico Basic Breakout Board removes all SMD components while retaining core functionality in a Brook form factor board.  
 
-I have tested this extensively with the GP2040-RaspberryPiPico_v0.4.3.uf2 version of the firmware (included in the folder).  Please note that future releases may change default pin layout and require a different version of the board to be created.
 
-We have a small but passionate Discord group which you can access here if interested: https://discord.gg/k87GQU2n
 
-A massive thank you to FeralAI who made most of this possible!
+
+---
+
+Main PCB pinout:
+
+CN5 - XH 2.54mm 9 pin
+
+1 - Grey   - L2       - (4K)<br/>
+2 - White  - L1       - (4P)<br/>
+3 - Orange - R2       - (3K)<br/>
+4 - Purple - R1       - (3P)<br/>
+5 - Green  - Circle   - (2K)<br/>
+6 - Yellow - Triangle - (2P)<br/>
+7 - Red    - Cross    - (1K)<br/>
+8 - Blue   - Square   - (1P)<br/>
+9 - Black  - Ground<br/>
+
 
 
 ---
