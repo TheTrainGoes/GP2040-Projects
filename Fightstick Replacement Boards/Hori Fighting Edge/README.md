@@ -14,7 +14,7 @@ This project aims to replace the main board in the Hori Fighting Edge (PS3 versi
 Main PCB pinout:
 <br/>
 <br/>
-Button Loom<br/>
+*Button Loom*<br/>
 CN5 - XH 2.54mm 9 pin<br/>
 <br/>
 1 - Grey   - L2       - (4K)<br/>
