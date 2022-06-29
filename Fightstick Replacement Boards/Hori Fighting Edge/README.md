@@ -27,9 +27,9 @@ CN5 - XH 2.54mm 9 pin<br/>
 Right Side LEDs<br/>
 CN6 - PH 2.00mm 3 pin<br/>
 <br/>
-1 - Blue/Purple  - Red LED<br/>
-2 - White        - Ground (needs 100 ohm resistor)<br/>
-3 - Black        - Blue LED<br/>
+1 - Blue/Purple  - Red LED (needs 100 ohm resistor)<br/>
+2 - White        - Ground<br/>
+3 - Black        - Blue LED (needs 100 ohm resistor)<br/>
 <br/>
 <br/>
 Touch Panel Buttons<br/>
@@ -99,9 +99,9 @@ CN4 - Ph 2.00mm 2 pin<br/>
 Left Side LEDs<br/>
 CN7 - PH 2.00mm 3 pin<br/>
 <br/>
-1 - Blue/Purple  - Red LED<br/>
-2 - White        - Ground (needs 100 ohm resistor)<br/>
-3 - Black        - Blue LED<br/>
+1 - Blue/Purple  - Red LED (needs 100 ohm resistor)<br/>
+2 - White        - Ground<br/>
+3 - Black        - Blue LED (needs 100 ohm resistor)<br/>
 <br/>
 <br/>
 CN12 - Not used on the PS3 version<br/>
