@@ -73,7 +73,14 @@ CN14 - PH2.00mm 9 pin<br/>
 9 - Purple - L3 Red LED (needs 100 ohm resistor)<br/>
 <br/>
 <br/>
-CN2 - Not used on the PS3 version (presumed to be used for xBox player LEDs)<br/>
+USB Connection<br/>
+CN2 - XH 2.54mm 5 pin<br/>
+<br/>
+1 - Red - 5v VCC<br/>
+2 - White - Data-<br/>
+3 - Green - Data+<br/>
+4 - Black 1 - USB OTG ID (this can be bridged with pin 5)<br/>
+5 - Black 2 - Ground (this can be bridged with pin 4)<br/>
 <br/>
 <br/>
 Joystick Loom<br/>
