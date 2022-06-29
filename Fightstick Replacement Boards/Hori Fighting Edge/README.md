@@ -28,7 +28,7 @@ CN5 - XH 2.54mm 9 pin<br/>
 9 - Black  - Ground<br/>
 <br/>
 <br/>
-Left Side LEDs<br/>
+Right Side LEDs<br/>
 CN6 - PH 2.00mm 3 pin<br/>
 <br/>
 1 - Blue/Purple  - Red LED<br/>
@@ -73,19 +73,37 @@ CN14 - PH2.00mm 9 pin<br/>
 9 - Purple - L3 Red LED (needs 100 ohm resistor)<br/>
 <br/>
 <br/>
-
-
-CN2
-
-CN1
-
-CN4
-
-CN7
-
-CN12
-
-CN13
+CN2 - Not used on the PS3 version (presumed to be used for xBox player LEDs)<br/>
+<br/>
+<br/>
+Joystick Loom<br/>
+CN1 - PH 2.00mm 5 pin<br/>
+<br/>
+1 - Black  - Ground<br/>
+2 - Green  - Right<br/>
+3 - Yellow - Left<br/>
+4 - Orange - Up<br/>
+5 - Red    - Down<br/>
+<br/>
+<br/>
+Guide Button (Playstation Button)<br/>
+CN4 - Ph 2.00mm 2 pin<br/>
+<br/>
+1 - Red   - Guide<br/>
+2 - White - Ground<br/>
+<br/>
+<br/>
+Left Side LEDs<br/>
+CN7 - PH 2.00mm 3 pin<br/>
+<br/>
+1 - Blue/Purple  - Red LED<br/>
+2 - White        - Ground (needs 100 ohm resistor)<br/>
+3 - Black        - Blue LED<br/>
+<br/>
+<br/>
+CN12 - Not used on the PS3 version<br/>
+<br/>
+CN13 - Not used on the PS3 version<br/>
 
 
 
