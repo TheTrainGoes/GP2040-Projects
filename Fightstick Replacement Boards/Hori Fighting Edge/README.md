@@ -14,7 +14,7 @@ This project aims to replace the main board in the Hori Fighting Edge (PS3 versi
 Main PCB pinout:
 <br/>
 <br/>
-*Button Loom*<br/>
+Button Loom<br/>
 CN5 - XH 2.54mm 9 pin<br/>
 <br/>
 1 - Grey   - L2       - (4K)<br/>
@@ -28,7 +28,7 @@ CN5 - XH 2.54mm 9 pin<br/>
 9 - Black  - Ground<br/>
 <br/>
 <br/>
-Left side LEDs<br/>
+Left Side LEDs<br/>
 CN6 - PH 2.00mm 3 pin<br/>
 <br/>
 1 - Blue/Purple  - Red LED<br/>
@@ -45,7 +45,47 @@ CN3 - PH 2.00mm 6 pin<br/>
 4 - Yellow - 'Select' on the touch panel<br/>
 5 - Green  - 'Start' on the touch panel<br/>
 6 - Orange - Ground<br/>
+<br/>
+<br/>
+Touch Panel LEDs (Part 1 of 2)<br/>
+CN15 - XH 2.54mm 7 pin<br/>
+<br/>
+1 - Grey - R3 Red LED (needs 100 ohm resistor)<br/>
+2 - Orange - Select Red LED (needs 100 ohm resistor)<br/>
+3 - Green - NC Red LED (needs 100 ohm resistor)<br/>
+4 - Yellow - Lockout 'X' Red LED (needs 100 ohm resistor)<br/>
+5 - Black - Lockout 'X' Blue LED (needs 100 ohm resistor)<br/>
+6 - White - Touch Panel LED (needs 100 ohm resistor)<br/>
+7 - Red - Ground<br/>
+<br/>
+<br/>
+Touch Panel LEDs (Part 2 of 2)<br/>
+CN14 - PH2.00mm 9 pin<br/>
+<br/>
+1 - Red - Circle Red LED (needs 100 ohm resistor)<br/>
+2 - White - Cross Red LED (needs 100 ohm resistor)<br/>
+3 - Black - Square Red LED (needs 100 ohm resistor)<br/>
+4 - Yellow - Triangle Red LED (needs 100 ohm resistor)<br/>
+5 - Green - L1 Red LED (needs 100 ohm resistor)<br/>
+6 - Orange - R1 Red LED (needs 100 ohm resistor)<br/>
+7 - Grey - L2 Red LED (needs 100 ohm resistor)<br/>
+8 - Blue - R2 Red LED (needs 100 ohm resistor)<br/>
+9 - Purple - L3 Red LED (needs 100 ohm resistor)<br/>
+<br/>
+<br/>
 
+
+CN2
+
+CN1
+
+CN4
+
+CN7
+
+CN12
+
+CN13
 
 
 
