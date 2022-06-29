@@ -15,7 +15,7 @@ Main PCB pinout:
 
 <br/>
 Button Loom<br/>
-CN5 - XH 2.54mm 9 pin
+CN5 - XH 2.54mm 9 pin<br/>
 
 1 - Grey   - L2       - (4K)<br/>
 2 - White  - L1       - (4P)<br/>
@@ -29,7 +29,7 @@ CN5 - XH 2.54mm 9 pin
 
 <br/>
 Left side LEDs<br/>
-CN6 - PH 2.00mm 3 pin
+CN6 - PH 2.00mm 3 pin<br/>
 
 1 - Blue/Purple  - Red LED<br/>
 2 - White        - Ground (needs 100 ohm resistor)<br/>
@@ -37,7 +37,7 @@ CN6 - PH 2.00mm 3 pin
 
 <br/>
 Touch Panel Buttons<br/>
-CN3 - PH 2.00mm 6 pin
+CN3 - PH 2.00mm 6 pin<br/>
 
 1 - Red    - 5v VCC (needs 100 ohm resistor)<br/>
 2 - White  - 'CNF' on the touch panel<br/>
