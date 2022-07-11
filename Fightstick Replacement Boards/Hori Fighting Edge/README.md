@@ -27,7 +27,7 @@ CN5 - XH 2.54mm 9 pin<br/>
 Right Side LEDs<br/>
 CN6 - PH 2.00mm 3 pin<br/>
 <br/>
-1 - Blue/Purple  - Red LED (needs 100 ohm resistor)<br/>
+1 - Purple  - Red LED (needs 100 ohm resistor)<br/>
 2 - White        - Ground<br/>
 3 - Black        - Blue LED (needs 100 ohm resistor)<br/>
 <br/>
@@ -99,7 +99,7 @@ CN4 - Ph 2.00mm 2 pin<br/>
 Left Side LEDs<br/>
 CN7 - PH 2.00mm 3 pin<br/>
 <br/>
-1 - Blue/Purple  - Red LED (needs 100 ohm resistor)<br/>
+1 - Blue  - Red LED (needs 100 ohm resistor)<br/>
 2 - White        - Ground<br/>
 3 - Black        - Blue LED (needs 100 ohm resistor)<br/>
 <br/>
