@@ -109,7 +109,11 @@ CN12 - Not used on the PS3 version<br/>
 CN13 - Not used on the PS3 version<br/>
 
 
+---
 
+Parts: 
+
+Right Side LEDs and Left Side LEDs are dual color common cathode LEDs.  These are available in multiple color combinations should you want to change it.  I have tested the on red/blue as a direct replacemnt and also red/green.
 
 ---
 
