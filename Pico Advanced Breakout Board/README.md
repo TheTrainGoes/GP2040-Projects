@@ -1,26 +1,26 @@
-![Pico Basic Breakout Board - Front render](https://user-images.githubusercontent.com/32771064/172399744-610cd15f-1dcd-4831-add6-6181ca52ad40.png)
+![Pico Basic Breakout Board - Front render](https://github.com/TheTrainGoes/GP2040-Projects/blob/main/Pico%20Advanced%20Breakout%20Board/Pico%20Advanced%20Breakout%20Board%20-%20Front%20render.png?raw=true)
 
-Pico Basic Breakout Board
+Pico Advanced Breakout Board
 ---
 
 Summary:
 
-The Pico Basic Breakout Board is based on the Pico Fighting Board (https://github.com/FeralAI/PicoFightingBoard) and runs the same GP2040 firmware (https://gp2040.info/#/) on a RaspBerry Pi Pico.
+The Pico Advanced Breakout Board is based on the Pico Fighting Board (https://github.com/FeralAI/PicoFightingBoard) and is an evolution of my Pico Basic Breakout board that runs a custom GP2040 firmware that was created by PicoAnn and runs on a RaspBerry Pi Pico.
 
-The Pico Basic Breakout Board removes all SMD components while retaining core functionality in a Brook form factor board.  
+The Pico Advanced Breakout Board adds a number of new features to the Pico Basic Breakout Board.
 
-I have tested this extensively with the GP2040-RaspberryPiPico_v0.4.3.uf2 version of the firmware (included in the folder).  Please note that future releases may change default pin layout and require a different version of the board to be created.
+I have tested this extensively with the GP2040-PicoAnn_v0.4.3.1.uf2 version of the firmware (included in the folder).  Please note that future releases may change default pin layout and require a different version of the board to be created.
 
 We have a small but passionate Discord group which you can access here if interested: https://discord.gg/k87GQU2n
 
-A massive thank you to FeralAI who made most of this possible!
+A massive thank you to FeralAI and PicoAnn who made most of this possible!
 
 
 ---
 
 Board design choices:
 
-The Brook form factor was chosen due to its compatibility with a number of existing enclosures and holders.  The RaspBerry Pi mounting area has been setup in a way that allows you to solder directly to the board though the extended pads or stacked with the use of a header if you happen to have gotten a pre-soldered Pico.  
+The Brook form factor was chosen due to its compatibility with a number of existing enclosures and holders.  The RaspBerry Pi mounting area has been setup in a way that allows you to solder directly to the board though the extended pads.  
 
 A 20pin (2x10pin) connector is located in the bottom left of the board, matching the location and pinout of standard Brook boards.  If you are planning to use the 20pin connector you do not need to add screw terminals to the board, and vice versa.  
 
@@ -28,13 +28,31 @@ A BootSel button is available to allow for re-flashing of the firmware while the
 
 An OLED display breakout is also available on the board however most of the functionality of the display is currently quite limited.  
 
-The top row of pads allows for direct solder of wires as well as screw terminals to be added.  
+The top row of pads allows for direct solder of wires as well as screw terminals to be added. 
+
+A side row of pads allows for direct solder of wires as well as screw terminals to be added for an additinoal set of inputs.
+
+In adition to this there is aslo a 5pin 2.54mm header available for the Brook hitbox conversion cable set.
+
+A USB-B port has been added thanks to the available test pads on the RaspBerry Pi Pico.
+
+USB direct has also been added via a 5pin 2.54mm header.  Only one ground is needed, but some commercial fightsticks come with a five wire cable.
+
+A spot for addressible RGB LEDs has been added and is compatible with most 5v addressible RGB LEDs.
+
+Player LEDs are also availbe on this board via a 5pin JST 2.00mm plug and are fully compatible with the BitBangGaming Player LED module.
+
+Space for the defualt 4 pin harness from Brook are also available via a 4pin JST 2.00mm plug for Capture / LS / RS.
+
+Turbo and a Turbo LED have also been added via a 4pin JST 2.00mm plug.
+
+You can also find a 5v out 2pin JST 2.00mm plug on the board for use with accessories like the Antagonist 2.0.
 
 To keep the board looking clean a second board can be added on top of the Pico as a shield to cover it.  
 
 For those that want to order through JLCPCB I have added `JLCJLCJLCJLC` on the board in a hidden area to cover the order number.
 
-For a basic assembly you can remove the second PDC that is used as a shield and omit the nuts, bolts and spring lock washers.  This will expose the bare Pico board and recommended only for green boards.
+For a basic assembly you can remove the second PCB that is used as a shield and omit the nuts, bolts and spring lock washers.  This will expose the bare Pico board and recommended only for green boards.
 
 
 ---
@@ -48,33 +66,43 @@ The estimated cost of a full setup is $10 USD when ordering enough parts to make
 
 Parts necessary for full assembly:
 
-1 x Pico Basic Breakout Board<br/>
-1 x Pico Basic Breakout Board Cover<br/>
+1 x Pico Advanced Breakout Board<br/>
+1 x Pico Advanced Breakout Board Cover<br/>
 1 x RaspBerry Pi Pico board<br/>
-23 x 3.5mm interlocking screw terminals (1)<br/>
+28 x 3.5mm interlocking screw terminals (1)<br/>
 1 x 2x10pin 2.54mm header<br/>
-1 x 1x4pin 2.54mm header<br/>
-1 x 6x6 4pin through hole tactile switch (2)<br/>
-4 x M2 8mm Stainless Steel hex socket head bolt (3)<br/>
-8 x M2 Stainless Steel spring lock washer (3)<br/>
-8 x M2 Stainless Steel nut (3)<br/>
+2 x 1x5pin 2.54mm header<br/>
+1 x 5pin JST 2.00mm header (2)<br/>
+4 x 4pin JST 2.00mm header (2)<br/>
+1 x 2pin JST 2.00mm header (2)<br/>
+1 x SMD tactile switch (3)<br/>
+1 x USB-B 4pin female connector<br/>
+4 x M2 8mm Stainless Steel hex socket head bolt (4)<br/>
+8 x M2 Stainless Steel spring lock washer (4)<br/>
+8 x M2 Stainless Steel nut (4)<br/>
 
-(1) - I typically use a combination of 2pin and 3pin terminals on mine to make the 23 long chain<br/>
-(2) - Most heights are fine for this although I usually put a short one on the board<br/>
-(3) - The assembly order is 8mm bolt -> shield PCB -> 2 x spring lock washer -> nut -> main PCB -> nut<br/>
+(1) - I typically use a combination of 2pin and 3pin terminals on mine to make the 23 and 5 long chains<br/>
+(2) - Either strait or right angle connectors are fine, I recommend right angle connectors<br/>
+(3) - Most heights are fine for this although I usually put a short one on the board<br/>
+(4) - The assembly order is 8mm bolt -> shield PCB -> 2 x spring lock washer -> nut -> main PCB -> nut<br/>
 
 
 Parts necessary for lite assembly:
 
-1 x Pico Basic Breakout Board<br/>
+1 x Pico Advanced Breakout Board<br/>
 1 x RaspBerry Pi Pico board<br/>
-23 x 3.5mm interlocking screw terminals (1)<br/>
+28 x 3.5mm interlocking screw terminals (1)<br/>
 1 x 2x10pin 2.54mm header<br/>
-1 x 1x4pin 2.54mm header<br/>
-1 x 6x6 4pin through hole tactile switch (2)<br/>
+2 x 1x5pin 2.54mm header<br/>
+1 x 5pin JST 2.00mm header (2)<br/>
+4 x 4pin JST 2.00mm header (2)<br/>
+1 x 2pin JST 2.00mm header (2)<br/>
+1 x SMD tactile switch (3)<br/>
+1 x USB-B 4pin female connector<br/>
 
-(1) - I typically use a combination of 2pin and 3pin terminals on mine to make the 23 long chain<br/>
-(2) - most heights are fine for this although I usually put a short one on the board<br/>
+(1) - I typically use a combination of 2pin and 3pin terminals on mine to make the 23 and 5 long chains<br/>
+(2) - Either strait or right angle connectors are fine, I recommend right angle connectors<br/>
+(3) - Most heights are fine for this although I usually put a short one on the board<br/>
 
 
 ---
@@ -85,7 +113,7 @@ All of the boards so far have been ordered though JLCPCB.  Due to minimum order 
 
 1 - Go to JLCPCB.com<br/>
 2 - Click on `Instant Quote`<br/>
-3 - Click on `Add Gerber file` and choose the file named `Gerber - Pico Basic Board v2.0.zip`<br/>
+3 - Click on `Add Gerber file` and choose the file named `Gerber - Pico Advanced Board v2.0.zip`<br/>
 4 - Choose the following options for the board:<br/>
 - Base Material = FR-4<br/>
 - Layers = 2<br/>
@@ -116,11 +144,11 @@ To add the PCB cover as well follow the same process but select the file `Gerber
 
 How to upload firmware:
 
-If uploading the firmware before assembly you can hold the BootSel button on the Pico and plug the device into your computer.  It will show up as an external device.  Copy the `GP2040-RaspberryPiPico_v0.4.3.uf2` file to it and wait for the device to disconnect after copying completes.  
+If uploading the firmware before assembly you can hold the BootSel button on the Pico and plug the device into your computer.  It will show up as an external device.  Copy the `GP2040-PicoAnn_v0.4.3.1.uf2` file to it and wait for the device to disconnect after copying completes.  
 
-If uploading the firmware after assembly plug the Pico into your computer and quickly press the BootSel button twice on the Pico Basic Breakout Board.  You should see an external device show up on your computer.  Copy the `GP2040-RaspberryPiPico_v0.4.3.uf2` file to it and wait for the device to disconnect after copying completes.  
+If uploading the firmware after assembly plug the Pico into your computer and quickly press the BootSel button twice on the Pico Advanced Breakout Board.  You should see an external device show up on your computer.  Copy the `GP2040-PicoAnn_v0.4.3.1.uf2` file to it and wait for the device to disconnect after copying completes.  
 
-If something goes wrong and you want to upload the firmware again (or if you have tested out the configuration tool and made a mistake) you can enter BootSel mode via either of the methods above and drag over the included `flash_nuke.uf2` file.  This file will take a moment to write to the Pico, once completed you will see the device disconnect and then re-connect as an external device.  After it has shown up again you can copy the same `GP2040-RaspberryPiPico_v0.4.3.uf2` firmware over to it again.
+If something goes wrong and you want to upload the firmware again (or if you have tested out the configuration tool and made a mistake) you can enter BootSel mode via either of the methods above and drag over the included `flash_nuke.uf2` file.  This file will take a moment to write to the Pico, once completed you will see the device disconnect and then re-connect as an external device.  After it has shown up again you can copy the same `GP2040-PicoAnn_v0.4.3.1.uf2` firmware over to it again.
 
 
 ---
@@ -137,6 +165,18 @@ https://www.paypal.com/donate/?hosted_button_id=2JMTZVCGLDYC2
 ---
 
 Revision History:
+
+v3.0 (advanced breakout board)
+- Added player LEDs that can utalize the BitBangGaming Player LED module
+- Added more ways to connect additional direction inputs for mix sticks
+- Changed the BootSel button type to save space
+- Added USB-B
+- Added a header for direct access to the USB
+- Added a 4pin harness for Capture / LS / RS that is compatible with Brook cables
+- Added Turbo and a Turbo LED
+- Added 5v out
+- Added addressible RGB LEDs
+
 
 v2.0
 - Swapped S1 and S2 to be more consistent with Brook pinout
