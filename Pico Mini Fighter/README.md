@@ -1,4 +1,4 @@
-![Pico Arcade Breakout Board - Front render](https://user-images.githubusercontent.com/32771064/172406353-c0bfd96a-cbc3-417b-9a7e-4387ac7d4c01.png)
+![Pico Mini Fighter Board - Front render](https://github.com/TheTrainGoes/GP2040-Projects/blob/main/Pico%20Mini%20Fighter/Pico%20Mini%20Fighter%20-%20Front%20render.png)
 
 Pico Arcade Breakout Board
 ---
