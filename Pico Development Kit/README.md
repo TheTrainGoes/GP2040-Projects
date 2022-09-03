@@ -47,7 +47,7 @@ Fightstick Prototyping Board
 1 x 2.42" OLED display (convereted from 7pin to 4pin)<br/>
 19 x 6mmx6mm Tactile Switch<br/>
 
-LED Prototyping Board *please note that this board has not been tested yet*
+LED Prototyping Board *please note that this board has not been tested yet*<br/>
 54 x WS2812b addressible RGB LEDs<br/>
 54 x 100nF 1206 SMD capacitors<br/>
 2 x 2x10pin 2.54mm header<br/>
