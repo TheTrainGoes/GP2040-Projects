@@ -7,3 +7,7 @@
 [Pico Arcade Breakout Board](https://github.com/TheTrainGoes/GP2040-Projects/tree/main/Pico%20Arcade%20Breakout%20Board)
 
 [Pico Mini Fighter Board](https://github.com/TheTrainGoes/GP2040-Projects/tree/main/Pico%20Mini%20Fighter)
+
+[Pico Development Kit](https://github.com/TheTrainGoes/GP2040-Projects/tree/main/Pico%20Development%20Kit)
+
+
