@@ -2,6 +2,7 @@
 
 ![Development Kit - Fightstick Prototyping Board - Design image](https://github.com/TheTrainGoes/GP2040-Projects/blob/main/Pico%20Development%20Kit/Development%20Kit%20-%20Fightstick%20Prototyping%20Board%20-%20Design%20image.png)
 
+![Development Kit - LED Prototyping Board - Board image](https://github.com/TheTrainGoes/GP2040-Projects/blob/main/Pico%20Development%20Kit/Development%20Kit%20-%20LED%20Prototyping%20Board%20-%20Board%20image.png)
 
 
 Pico Development Kit
@@ -46,7 +47,7 @@ Fightstick Prototyping Board
 1 x 2.42" OLED display (convereted from 7pin to 4pin)<br/>
 19 x 6mmx6mm Tactile Switch<br/>
 
-LED Prototyping Board
+LED Prototyping Board *please note that this board has not been tested yet*
 54 x WS2812b addressible RGB LEDs<br/>
 54 x 100nF 1206 SMD capacitors<br/>
 2 x 2x10pin 2.54mm header<br/>
