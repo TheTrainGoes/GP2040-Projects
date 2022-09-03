@@ -1,5 +1,9 @@
 ![Development Kit - Pico Prototyping Board - Design image](https://github.com/TheTrainGoes/GP2040-Projects/blob/main/Pico%20Development%20Kit/Development%20Kit%20-%20Pico%20Prototyping%20Board%20-%20Design%20image.png)
 
+![Development Kit - Fightstick Prototyping Board - Design image](https://github.com/TheTrainGoes/GP2040-Projects/blob/main/Pico%20Development%20Kit/Development%20Kit%20-%20Fightstick%20Prototyping%20Board%20-%20Design%20image.png)
+
+
+
 Pico Development Kit
 ---
 
