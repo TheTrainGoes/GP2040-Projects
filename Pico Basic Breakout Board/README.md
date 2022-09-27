@@ -55,13 +55,13 @@ Parts necessary for full assembly:
 1 x 2x10pin 2.54mm header<br/>
 1 x 1x4pin 2.54mm header<br/>
 1 x 6x6 4pin through hole tactile switch (2)<br/>
-4 x M2 8mm Stainless Steel hex socket head bolt (3)<br/>
-8 x M2 Stainless Steel spring lock washer (3)<br/>
-8 x M2 Stainless Steel nut (3)<br/>
+4 x M2 8mm Stainless Steel hex socket head bolt (3)
+4 x M2 Brass 3mm standoff (3)
+4 x M2 Stainless Steel nut (3)
 
 (1) - I typically use a combination of 2pin and 3pin terminals on mine to make the 23 long chain<br/>
 (2) - Most heights are fine for this although I usually put a short one on the board<br/>
-(3) - The assembly order is 8mm bolt -> shield PCB -> 2 x spring lock washer -> nut -> main PCB -> nut<br/>
+(3) - The assembly order is 8mm bolt -> shield PCB -> 3mm standoff -> main PCB -> nut
 
 
 Parts necessary for lite assembly:
@@ -109,7 +109,7 @@ All of the boards so far have been ordered though JLCPCB.  Due to minimum order 
 5 - Click on `SAVE TO CART`<br/>
 6 - Go through checkout process, ensure to select economic shipping to keep costs low
 
-To add the PCB cover as well follow the same process but select the file `Gerber - Pico Basic Board PCB Cover v2.0.zip`.
+To add the PCB cover as well follow the same process but select the file `Gerber - Pico Basic Board PCB Cover v2.0.zip` but choose 1.00mm for the thickness.
      
 
 ---
