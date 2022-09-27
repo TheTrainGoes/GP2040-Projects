@@ -59,15 +59,15 @@ For a basic assembly you can remove the second PCB that is used as a shield and 
 
 Assembly:
 
-There are two main ways to assemble, a full and lite version of the setup.  The full version has a nice PCB cover for the Pico that is attached via some M2 nuts, bolts and washers.  The lite version is just a bare Pico on the Pico Basic Breakout Board (for this option I recommend doing your Pico Basic Breakout Board PCB in green).  
+There are two main ways to assemble, a full and lite version of the setup.  The full version has a nice PCB cover for the Pico that is attached via some M2 nuts and bolts.  The lite version is just a bare Pico on the Pico Basic Breakout Board (for this option I recommend doing your Pico Advanced Breakout Board PCB in green).  
 
-The estimated cost of a full setup is $10 USD when ordering enough parts to make 5 units ($50 USD total).  All parts listed are available on AliExpress.
+The estimated cost of a full setup is $15 USD when ordering enough parts to make 5 units ($50 USD total).  All parts listed are available on AliExpress.
 
 
 Parts necessary for full assembly:
 
-1 x Pico Advanced Breakout Board<br/>
-1 x Pico Advanced Breakout Board Cover<br/>
+1 x Pico Advanced Breakout Board (this should be done as 1.6mm thick)<br/>
+1 x Pico Advanced Breakout Board Cover (this should be done as 1.0mm thick)<br/>
 1 x RaspBerry Pi Pico board<br/>
 28 x 3.5mm interlocking screw terminals (1)<br/>
 1 x 2x10pin 2.54mm header<br/>
@@ -78,13 +78,13 @@ Parts necessary for full assembly:
 1 x SMD tactile switch (3)<br/>
 1 x USB-B 4pin female connector<br/>
 4 x M2 8mm Stainless Steel hex socket head bolt (4)<br/>
-8 x M2 Stainless Steel spring lock washer (4)<br/>
-8 x M2 Stainless Steel nut (4)<br/>
+4 x M2 Brass 3mm standoff (4)<br/>
+4 x M2 Stainless Steel nut (4)<br/>
 
 (1) - I typically use a combination of 2pin and 3pin terminals on mine to make the 23 and 5 long chains<br/>
 (2) - Either strait or right angle connectors are fine, I recommend right angle connectors<br/>
 (3) - Most heights are fine for this although I usually put a short one on the board<br/>
-(4) - The assembly order is 8mm bolt -> shield PCB -> 2 x spring lock washer -> nut -> main PCB -> nut<br/>
+(4) - The assembly order is 8mm bolt -> shield PCB -> 3mm standoff -> main PCB -> nut<br/>
 
 
 Parts necessary for lite assembly:
@@ -137,7 +137,7 @@ All of the boards so far have been ordered though JLCPCB.  Due to minimum order 
 5 - Click on `SAVE TO CART`<br/>
 6 - Go through checkout process, ensure to select economic shipping to keep costs low
 
-To add the PCB cover as well follow the same process but select the file `Gerber - Pico Basic Board PCB Cover v2.0.zip`.
+To add the PCB cover as well follow the same process but select the file `Gerber - Pico Basic Board PCB Cover v2.0.zip` but choose 1.00mm as the thickness on it.
      
 
 ---
