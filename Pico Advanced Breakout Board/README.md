@@ -1,4 +1,4 @@
-![Pico Basic Breakout Board - Front render](https://github.com/TheTrainGoes/GP2040-Projects/blob/main/Pico%20Advanced%20Breakout%20Board/Pico%20Advanced%20Breakout%20Board%20-%20Front%20render.png?raw=true)
+![Pico Basic Breakout Board - Front render](https://github.com/TheTrainGoes/GP2040-Projects/blob/main/Pico%20Advanced%20Breakout%20Board/Pico%20Advanced%20Breakout%20Board%20-%20Front%20render.png)
 
 Pico Advanced Breakout Board
 ---
