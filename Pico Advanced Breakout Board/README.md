@@ -1,6 +1,6 @@
 ![Pico Advanced Breakout Board - Front render](https://github.com/TheTrainGoes/GP2040-Projects/blob/main/Pico%20Advanced%20Breakout%20Board/Pico%20Advanced%20Breakout%20Board%20-%20Front%20render.png)
 
-![Pico Advanced Breakout Board - Assembled](https://github.com/TheTrainGoes/GP2040-Projects/blob/main/Pico%20Advanced%20Breakout%20Board/Pico%20Advanced%20Breakout%20Board%20-%20Assembled.JPG))
+![Pico Advanced Breakout Board - Assembled](https://github.com/TheTrainGoes/GP2040-Projects/blob/main/Pico%20Advanced%20Breakout%20Board/Pico%20Advanced%20Breakout%20Board%20-%20Assembled.JPG)
 
 Pico Advanced Breakout Board
 ---
@@ -235,4 +235,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-If you have any question please reach out to me on Twitter @TheTrain24
+If you have any question please reach out to me on Twitter @TheTrain24 or join the GP2040-CE Discord server https://discord.gg/k2pxhke7q8
