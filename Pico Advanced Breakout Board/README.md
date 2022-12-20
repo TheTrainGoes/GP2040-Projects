@@ -5,15 +5,15 @@ Pico Advanced Breakout Board
 
 Summary:
 
-The Pico Advanced Breakout Board is based on the Pico Fighting Board (https://github.com/FeralAI/PicoFightingBoard) and is an evolution of my Pico Basic Breakout board that runs a custom GP2040 firmware that was created by PicoAnn and runs on a RaspBerry Pi Pico.
+The Pico Advanced Breakout Board is based on the Pico Fighting Board (https://github.com/FeralAI/PicoFightingBoard) and is an evolution of my Pico Basic Breakout board.
 
 The Pico Advanced Breakout Board adds a number of new features to the Pico Basic Breakout Board.
 
-I have tested this extensively with the GP2040-PicoAnn_v0.4.3.1.uf2 version of the firmware (included in the folder).  Please note that future releases may change default pin layout and require a different version of the board to be created.
+This runs on the stock GP2040-CE firmware for the RaspBerry Pi Pico, so all future updates to the main project should be supported.
 
-We have a small but passionate Discord group which you can access here if interested: https://discord.gg/k87GQU2n
+We have a small but passionate Discord group which you can access here if interested: https://discord.gg/k2pxhke7q8
 
-A massive thank you to FeralAI and PicoAnn who made most of this possible!
+A massive thank you to FeralAI and everyone on the GP2040-CE Discord server who made this possible!
 
 
 ---
@@ -26,7 +26,7 @@ A 20pin (2x10pin) connector is located in the bottom left of the board, matching
 
 A BootSel button is available to allow for re-flashing of the firmware while the board is plugged in and also to eliminate the need to remove the Pico cover to access the Pico directly.  
 
-An OLED display breakout is also available on the board however most of the functionality of the display is currently quite limited.  
+An OLED display breakout is also available on the board by way of the expansion port.  This can be used for I2C modules as well.  It has proper 4.7k resistors on the 5v line routed on the board.
 
 The top row of pads allows for direct solder of wires as well as screw terminals to be added. 
 
@@ -40,13 +40,15 @@ USB direct has also been added via a 5pin 2.54mm header.  Only one ground is nee
 
 A spot for addressible RGB LEDs has been added and is compatible with most 5v addressible RGB LEDs.
 
-Player LEDs are also availbe on this board via a 5pin JST 2.00mm plug and are fully compatible with the BitBangGaming Player LED module.
+Player LEDs are possible though another project that I am working on.  More to come on that soon.
 
 Space for the defualt 4 pin harness from Brook are also available via a 4pin JST 2.00mm plug for Capture / LS / RS.
 
-Turbo and a Turbo LED have also been added via a 4pin JST 2.00mm plug.
+Turbo is accessible thought he main 23 pin screw terminal line.
 
-You can also find a 5v out 2pin JST 2.00mm plug on the board for use with accessories like the Antagonist 2.0.
+There are two option pins accessible via a 2pin JST 2.00mm plugs.  These are custiomizable though the web-config mode for features like directional reversal, macros and many upcoming things.
+
+You can also find a 5v out 2pin JST 2.00mm plug on the board for use with accessories that need 5v.
 
 To keep the board looking clean a second board can be added on top of the Pico as a shield to cover it.  
 
@@ -70,19 +72,23 @@ Parts necessary for full assembly:
 1 x Pico Advanced Breakout Board Cover (this should be done as 1.0mm thick)<br/>
 1 x RaspBerry Pi Pico board<br/>
 28 x 3.5mm interlocking screw terminals (1)<br/>
+2 x 4.7k SMD resistor (1206 package)
+1 x 10k SMD resistro (1206 package)
+1 x 100nF SMD capicator (1206 package)
+1 x 5v Logic Shifter (SN74LV1T34DBVR on Digikey)
 1 x 2x10pin 2.54mm header<br/>
 2 x 1x5pin 2.54mm header<br/>
-1 x 5pin JST 2.00mm header (2)<br/>
-4 x 4pin JST 2.00mm header (2)<br/>
-1 x 2pin JST 2.00mm header (2)<br/>
-1 x SMD tactile switch (3)<br/>
+3 x 4pin JST 2.00mm header (2)<br/>
+1 x 3pin JST 2.00mm header (2)<br/>
+3 x 2pin JST 2.00mm header (2)<br/>
+2 x SMD tactile switch (3)<br/>
 1 x USB-B 4pin female connector<br/>
 4 x M2 8mm Stainless Steel hex socket head bolt (4)<br/>
 4 x M2 Brass 3mm standoff (4)<br/>
 4 x M2 Stainless Steel nut (4)<br/>
 
-(1) - I typically use a combination of 2pin and 3pin terminals on mine to make the 23 and 5 long chains<br/>
-(2) - Either strait or right angle connectors are fine, I recommend right angle connectors<br/>
+(1) - I typically use 1x 16pin and 1x 7pin screw terminals for the main line and 1x 3pin and 1 x 2pin screw termianls for the second line<br/>
+(2) - Either strait or right angle connectors are fine, I recommend right angle connectors to keep pinouts the same<br/>
 (3) - Most heights are fine for this although I usually put a short one on the board<br/>
 (4) - The assembly order is 8mm bolt -> shield PCB -> 3mm standoff -> main PCB -> nut<br/>
 
@@ -144,11 +150,11 @@ To add the PCB cover as well follow the same process but select the file `Gerber
 
 How to upload firmware:
 
-If uploading the firmware before assembly you can hold the BootSel button on the Pico and plug the device into your computer.  It will show up as an external device.  Copy the `GP2040-PicoAnn_v0.4.3.1.uf2` file to it and wait for the device to disconnect after copying completes.  
+If uploading the firmware before assembly you can hold the BootSel button on the Pico and plug the device into your computer.  It will show up as an external device.  Copy the GP2040-CE-RaspberryPiPico_v0.5.3.uf2` file to it and wait for the device to disconnect after copying completes.  
 
-If uploading the firmware after assembly plug the Pico into your computer and quickly press the BootSel button twice on the Pico Advanced Breakout Board.  You should see an external device show up on your computer.  Copy the `GP2040-PicoAnn_v0.4.3.1.uf2` file to it and wait for the device to disconnect after copying completes.  
+If uploading the firmware after assembly plug the Pico into your computer and quickly press the BootSel button twice on the Pico Advanced Breakout Board.  You should see an external device show up on your computer.  Copy the `GP2040-CE-RaspberryPiPico_v0.5.3.uf2` file to it and wait for the device to disconnect after copying completes.  
 
-If something goes wrong and you want to upload the firmware again (or if you have tested out the configuration tool and made a mistake) you can enter BootSel mode via either of the methods above and drag over the included `flash_nuke.uf2` file.  This file will take a moment to write to the Pico, once completed you will see the device disconnect and then re-connect as an external device.  After it has shown up again you can copy the same `GP2040-PicoAnn_v0.4.3.1.uf2` firmware over to it again.
+If something goes wrong and you want to upload the firmware again (or if you have tested out the configuration tool and made a mistake) you can enter BootSel mode via either of the methods above and drag over the included `flash_nuke.uf2` file.  This file will take a moment to write to the Pico, once completed you will see the device disconnect and then re-connect as an external device.  After it has shown up again you can copy the same `GP2040-CE-RaspberryPiPico_v0.5.3.uf2` firmware over to it again.
 
 
 ---
@@ -165,6 +171,16 @@ https://www.paypal.com/donate/?hosted_button_id=2JMTZVCGLDYC2
 ---
 
 Revision History:
+
+v4.0 (advanced breakout board)
+- Removed palyer LEDs that were using individual pins
+- Added LS/DP/RS slider (these pins can be remapped to something else if desired)
+- Added Option headers
+- Added second set of main direction inputs via screw terminal + 2.54mm header
+- Added proper 5v logic shift circuit
+- Added proper resistors to I2C line
+- Added tactile switch that is connected to the start button to allow for easy access to the web-config utility when no buttons are connected
+
 
 v3.0 (advanced breakout board)
 - Added player LEDs that can utalize the BitBangGaming Player LED module
@@ -195,18 +211,26 @@ v1.0
 
 ---
 
-Usage / Licencing:
+MIT License
 
-I am covering this under Attribution-NonCommercial 4.0 International (CC BY-NC 4.0).
+Copyright (c) 2022 TheTrain
 
-You are free to:
-Share — copy and redistribute the material in any medium or format
-Adapt — remix, transform, and build upon the material
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-Under the following terms:
-Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-NonCommercial — You may not use the material for commercial purposes.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Read more here: https://creativecommons.org/licenses/by-nc/4.0/
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 If you have any question please reach out to me on Twitter @TheTrain24
