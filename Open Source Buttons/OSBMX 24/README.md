@@ -1,5 +1,5 @@
-![OSBMX Buttons](https://github.com/TheTrainGoes/GP2040-Projects/Open%Source%Buttons/OSBMX%24/OSBMX%Buttons.JPG)
-![OSBMX PCB](https://github.com/TheTrainGoes/GP2040-Projects/Open%Source%Buttons/OSBMX%24/OSBMX%PCB.JPG)
+![OSBMX Buttons](https://github.com/TheTrainGoes/GP2040-Projects/blob/main/Open%20Source%20Buttons/OSBMX%2024/OSBMX%20Buttons.JPG)
+![OSBMX PCB](https://github.com/TheTrainGoes/GP2040-Projects/blob/main/Open%20Source%20Buttons/OSBMX%2024/OSBMX%20PCB.JPG)
 
 OSBMX 24
 Open Source Button MX 24mm
