@@ -5,6 +5,15 @@ OSBMX 30
 Open Source Button MX 24mm
 ---
 
+!!!WARNING!!!
+
+I am not responsible for prints that do not turn out as intended or any damages that occur as a result of installation or usage of these buttons.
+
+!!!WARNING!!!
+
+
+---
+
 Summary:
 
 The OSBMX 30 is based on the 24mm buttons from the OFOF1 by RanaLabs (https://github.com/rana-sylvatica/OFOF1).
