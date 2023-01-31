@@ -1,8 +1,8 @@
 ![OSBMX Buttons](https://github.com/TheTrainGoes/GP2040-Projects/blob/main/Open%20Source%20Buttons/OSBMX%2024/OSBMX%20Buttons.JPG)
 ![OSBMX PCB](https://github.com/TheTrainGoes/GP2040-Projects/blob/main/Open%20Source%20Buttons/OSBMX%2024/OSBMX%20PCB.png)
 
-OSBMX 30
-Open Source Button MX 24mm
+OSBMX 24 / OSBMX 30
+Open Source Button MX 24mm and 30mm buttons
 ---
 
 !!!WARNING!!!
@@ -16,11 +16,11 @@ I am not responsible for prints that do not turn out as intended or any damages 
 
 Summary:
 
-The OSBMX 30 is based on the 24mm buttons from the OFOF1 by RanaLabs (https://github.com/rana-sylvatica/OFOF1).
+The OSBMX 24 / OSBMX 30 is based on the buttons from the OFOF1 by RanaLabs (https://github.com/rana-sylvatica/OFOF1).
 
-The OSBMX 30 allows for a compact all-in-one button to be constructed and placed securly into a small form factor case (total of 2.00mm thick).
+The OSBMX 24 / OSBMX 30 allows for a compact all-in-one button to be constructed and placed securly into a small form factor case (total of 2.00mm thick).
 
-Currently the OBSMX 30 is only available with a horizontal ZH 1.500mm connector, but there are plans to expand the available offerings of compatible boards for it.
+Currently the OSBMX 24 / OSBMX 30 is only available with a horizontal ZH 1.500mm connector, but there are plans to expand the available offerings of compatible boards for it.
 
 A massive thank you to Bjart (https://twitter.com/bjartskular2) for making the original file and being great to work with throughout this project.
 
@@ -47,12 +47,13 @@ Assembly is quite strait forward on this board.  All that is needed is to solder
 Parts necessary for assembly:
 
 1 x LP MX board<br/>
-1 x MX hot swap socket<br/>
-1 x ZH 1.50mm 2pin SMD connector<br/>
-2 x M2 5mm Hex Hexagon Socket Cap Head Self Tapping Screws<br/>
-1 x OSBMX 30 housing<br/>
-1 x OSBMX 30 plunger<br/>
-1 x MX switch (1)<br/>
+1 x MX hot swap socket (https://www.aliexpress.com/item/4001051840976.html)<br/>
+1 x ZH 1.50mm 2pin SMD horizonatal connector (https://www.aliexpress.com/item/1005003131441676.html)<br/>
+2 x M2 5mm Hex Hexagon Socket Cap Head Self Tapping Screws (https://www.aliexpress.com/item/10000350027047.html)<br/>
+1 x OOSBMX 24 / OSBMX 30 housing<br/>
+1 x OSBMX 24 / OSBMX 30 plunger<br/>
+1 x OSBMX 24 / OSBMX 30 washer<br/>
+1 x MX switch (1) (https://www.aliexpress.com/item/1005004679651313.html)<br/>
 
 (1) - Please note that these buttons will only work with MX switches that have the small notch cut out of them for RGB LED lighing.  As an exmaple, stock Cherry MX switches have a full bottom and will not work for these.  My switch of chose for these is Outemu Silent Peach switches.
 
@@ -94,12 +95,12 @@ All of the boards so far have been ordered though JLCPCB.  Due to the size of th
 
 How to order a button housing:
 
-All of the button housings so far have been ordered though JLCPCB.  Due to the size of the buttons you can order a full sprue for a very small cost depending on the material you choose.
+All of the button housings so far have been ordered though JLCPCB.  Due to the size of the buttons you can order a full sprue for a very small cost depending on the material you choose.  You will get the best quality our of PA12 nylon, but they are the most expensive.  If you are ordering in resin I have several larger sprue configurations in the `other sprue configurations` folder.
 
 1 - Go to JLCPCB.com<br/>
 2 - Click on `Instant Quote`<br/>
 3 - Click on `3D Printing` <br/>
-4 - Click on `Add 3D files` and choose the file named `OSBMX 30 - Single Sprue.stl`<br/>
+4 - Click on `Add 3D files` and choose the file named `OSBMX 24 - Single Sprue.stl` or `OSBMX 30 - Single Sprue.stl`<br/>
 4 - Choose the following options for the board:<br/>
 - 3D Technology = MJF (Nylon) (1)<br/>
 - Material = PA12-HP Nylon (2)<br/>
@@ -114,7 +115,7 @@ All of the button housings so far have been ordered though JLCPCB.  Due to the s
 
 (1) - These are best done in MJF (Nylon).  If you want to make cheaper buttons you can do them in SLA (Resin).  The sprues have been optamized for ordering in MJF (Nylon).  If you would like to order these in resin please check out some of the other files I have in here which have greater sized sprues.
 (2) - PA12-HP Nylon is recommened due to finish and feel, although it is more expensive.  You can make these out of 9000R resin if you are looking to get a larger number for a lower cost, or want to experiment with doing dye jobs.
-
+     
 
 ---
 
@@ -132,7 +133,7 @@ https://www.paypal.com/donate/?hosted_button_id=2JMTZVCGLDYC2
 Revision History:
 
 v4.0 (current)
-- Offset the post holes on the OSBMX 24 housing and main PCB by 10o to ensure no electrical contact with the hot swap socket pads
+- Offset the post holes on the OSBMX 24 / OSBMX 30 housing and main PCB by 10o to ensure no electrical contact with the hot swap socket pads
 
 
 v3.0
@@ -140,7 +141,7 @@ v3.0
 
 
 v2.0
-- Added post supports to the OSBMX 24 housing
+- Added post supports to the OSBMX 24 / OSBMX 30 housing
 
 
 v1.0
