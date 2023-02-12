@@ -22,6 +22,8 @@ The OSBMX 24 / OSBMX 30 allows for a compact all-in-one button to be constructed
 
 Currently the OSBMX 24 / OSBMX 30 is only available with a horizontal ZH 1.500mm connector, but there are plans to expand the available offerings of compatible boards for it.
 
+Please note that these buttons can also be used without the circuit board as the main housing of the button will hold the MX switches just fine.  You can then use a hot swap connector directly or just solder to the MX switches.  In this configuration you can also use any type of MX switch even without the notch in them.
+
 A massive thank you to Bjart (https://twitter.com/bjartskular2) for making the original file and being great to work with throughout this project.
 
 
