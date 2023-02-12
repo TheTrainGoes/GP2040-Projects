@@ -44,7 +44,7 @@ A spot for addressible RGB LEDs has been added and is compatible with most 5v ad
 
 Player LEDs are possible though another project that I am working on.  More to come on that soon.
 
-Space for the defualt 4 pin harness from Brook are also available via a 4pin JST 2.00mm plug for Capture / LS / RS.
+Space for the default 4 pin harness from Brook are also available via a 4pin JST 2.00mm plug for Capture / LS / RS.
 
 Turbo is accessible thought he main 23 pin screw terminal line.
 
