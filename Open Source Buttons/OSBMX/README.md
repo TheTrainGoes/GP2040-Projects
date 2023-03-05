@@ -11,6 +11,10 @@ I am not responsible for prints that do not turn out as intended or any damages 
 
 !!!WARNING!!!
 
+JLCPCB is known for flagging issues before producing these buttons.  I have re-made most of the standard files to comply with the 1.5mm minimum size for sprue rails in resin.  This may still lead to an error if you are having them done in nylon PA12 or another material.  I have always approved these errors and never run into any issues but please use your best judgement and think critically about what the error is they are reporting before approving.  Again, I am not responcible for prints that do not turn out as intended!
+
+!!!WARNING!!!
+
 
 ---
 
@@ -20,7 +24,7 @@ The OSBMX 24 / OSBMX 30 is based on the buttons from the OFOF1 by RanaLabs (http
 
 The OSBMX 24 / OSBMX 30 allows for a compact all-in-one button to be constructed and placed securly into a small form factor case (total of 2.00mm thick).
 
-Currently the OSBMX 24 / OSBMX 30 is only available with a horizontal ZH 1.500mm connector, but there are plans to expand the available offerings of compatible boards for it.
+The OSBMX 24 / OSBMX 30 project has now been updated with an additional PCB design that takes standard 2.4mm connectors. 
 
 Please note that these buttons can also be used without the circuit board as the main housing of the button will hold the MX switches just fine.  You can then use a hot swap connector directly or just solder to the MX switches.  In this configuration you can also use any type of MX switch even without the notch in them.
 
@@ -39,6 +43,8 @@ Secondly, I have made a custom cutout that is deisgned to fit a flipped over ZH 
 
 While not unique, the board also has offset screw holes to ensure no metal comes in contact with the hot swap sockets or pads.
 
+Due to many requests I have added a second version of the PCB that takes normal 2.4mm connectors.  These have been tested and are working with the common 2.4mm connectors (two prong) found on AliExpress here: https://www.aliexpress.com/item/1005002539360973.html.
+
 
 ---
 
@@ -46,11 +52,25 @@ Assembly:
 
 Assembly is quite strait forward on this board.  All that is needed is to solder the hot swap socket on as well as the ZH 1.50mm 2pin SMD connector.
 
-Parts necessary for assembly:
+Parts necessary for assembly of the main low profile board:
 
 1 x LP MX board<br/>
 1 x MX hot swap socket (https://www.aliexpress.com/item/4001051840976.html)<br/>
 1 x ZH 1.50mm 2pin SMD horizonatal connector (https://www.aliexpress.com/item/1005003131441676.html)<br/>
+2 x M2 5mm Hex Hexagon Socket Cap Head Self Tapping Screws (https://www.aliexpress.com/item/10000350027047.html)<br/>
+1 x OOSBMX 24 / OSBMX 30 housing<br/>
+1 x OSBMX 24 / OSBMX 30 plunger<br/>
+1 x OSBMX 24 / OSBMX 30 washer<br/>
+1 x MX switch (1) (https://www.aliexpress.com/item/1005004679651313.html)<br/>
+
+(1) - Please note that these buttons will only work with MX switches that have the small notch cut out of them for RGB LED lighing.  As an exmaple, stock Cherry MX switches have a full bottom and will not work for these.  My switch of chose for these is Outemu Silent Peach switches.
+
+
+Parts necessary for assembly of the newer 2.4mm version:
+
+1 x LP MX board<br/>
+1 x MX hot swap socket (https://www.aliexpress.com/item/4001051840976.html)<br/>
+2 x DJ610-2.8-5 2.4mm male quick disonnect terminals (https://www.aliexpress.com/item/1005002539360973.html)<br/>
 2 x M2 5mm Hex Hexagon Socket Cap Head Self Tapping Screws (https://www.aliexpress.com/item/10000350027047.html)<br/>
 1 x OOSBMX 24 / OSBMX 30 housing<br/>
 1 x OSBMX 24 / OSBMX 30 plunger<br/>
@@ -68,7 +88,7 @@ All of the boards so far have been ordered though JLCPCB.  Due to the size of th
 
 1 - Go to JLCPCB.com<br/>
 2 - Click on `Instant Quote`<br/>
-3 - Click on `Add Gerber file` and choose the file named `Gerber_OSBMX.zip`<br/>
+3 - Click on `Add Gerber file` and choose the file named `Gerber_OSBMX.zip` or `Gerber_OSBMX_-_2.4mm.zip<br/>
 4 - Choose the following options for the board:<br/>
 - Base Material = FR-4<br/>
 - Layers = 2<br/>
