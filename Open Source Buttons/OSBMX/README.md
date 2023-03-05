@@ -16,6 +16,10 @@ JLCPCB is known for flagging issues before producing these buttons.  I have re-m
 
 !!!WARNING!!!
 
+There are a nearly endless number of MX switches floating around out there.  For the purposes of this project I focused on Cherry and Outemu switches.  My personal preference was Outemu switches for this project.  While you may be able to use all sorts of other switches in these, I cannot guarntee that any other switches will work.  It is highly recommended to try a switch our two out to ensure proper operation before buying a ton of them.
+
+!!!WARNING!!!
+
 
 ---
 
