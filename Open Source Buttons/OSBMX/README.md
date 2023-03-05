@@ -1,5 +1,6 @@
 ![OSBMX Buttons](https://github.com/TheTrainGoes/GP2040-Projects/blob/main/Open%20Source%20Buttons/OSBMX/OSBMX%20Buttons.JPG)
 ![OSBMX PCB](https://github.com/TheTrainGoes/GP2040-Projects/blob/main/Open%20Source%20Buttons/OSBMX/OSBMX%20PCB.png)
+![OSBMX PCB 2.4mm](https://github.com/TheTrainGoes/GP2040-Projects/blob/main/Open%20Source%20Buttons/OSBMX/OSBMX%20PCB%20-%202.4mm.png)
 
 OSBMX 24 / OSBMX 30
 Open Source Button MX 24mm and 30mm buttons
