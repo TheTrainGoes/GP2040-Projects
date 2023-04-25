@@ -75,7 +75,7 @@ Parts necessary for assembly of the newer 2.4mm version:
 
 1 x LP MX board<br/>
 1 x MX hot swap socket (https://www.aliexpress.com/item/4001051840976.html)<br/>
-2 x DJ610-2.8-5 2.4mm male quick disonnect terminals (https://www.aliexpress.com/item/1005002539360973.html)<br/>
+2 x DJ610-2.8-2 2.4mm male quick disonnect terminals (https://www.aliexpress.com/item/1005002539360973.html)<br/>
 2 x M2 5mm Hex Hexagon Socket Cap Head Self Tapping Screws (https://www.aliexpress.com/item/10000350027047.html)<br/>
 1 x OOSBMX 24 / OSBMX 30 housing<br/>
 1 x OSBMX 24 / OSBMX 30 plunger<br/>
